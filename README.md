@@ -8,31 +8,31 @@ To install this Vim configuration, follow these steps:
 
 1. Clone this repository to your local machine: 
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/SriVadrevu/VadrevuDotFiles.git ~/.vim
-    \`\`\`
+    ```
 
     Replace `<your-username>` with your GitHub username.
 
 2. Link the Vim configuration file:
 
-    \`\`\`bash
+    ```bash
     ln -s ~/.vim/.vimrc ~/.vimrc
-    \`\`\`
+    ```
 
 3. Install Vundle, the plugin manager:
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    \`\`\`
-
+    ```
+    
 4. Install the plugins:
 
     Open Vim and run `:PluginInstall`, or use the command line to install the plugins:
 
-    \`\`\`bash
+    ```bash
     vim +PluginInstall +qall
-    \`\`\`
+    ```
 
 ## Features
 
